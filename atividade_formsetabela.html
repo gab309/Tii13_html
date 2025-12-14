@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade de tabela e formulário</title>
+</head>
+<body>
+    <h1>Tabela De produtos</h1>
+    
+    <table border="1">
+        <tr>
+            <th>Produtos</th>
+            <th>Categoria</th>
+            <th>Preço (R$)</th>
+            <th>Disponível (sim/não)</th>
+        </tr>
+        <tr>
+            <td>Arroz</td>
+            <td>Alimentos</td>
+            <td>25,00</td>
+            <td>sim</td>
+        </tr>
+        <tr>
+            <td>Feijão</td>
+            <td>Alimentos</td>
+            <td>8,50</td>
+            <td>sim</td>
+            <tr>
+                <td>Leite</td>
+                <td>Bebidas</td>
+                <td>4,80</td>
+                <td>não</td>
+            </tr>
+            <tr>
+                <td>Sabonete</td>
+                <td>Higiene</td>
+                <td>2,50</td>
+                <td>sim</td>
+            </tr>
+        </tr>
+    </table>
+    <hr>
+    <h2>Formulário da seleção de produtos</h2>
+    <hr>
+    <form>
+        <h3>Dados do cliente</h3>
+        <label>
+            Nome:<br>
+            <input type ="text" name="nome">
+        </label><br><br>
+        <label>
+            E-mail:<br>
+            <input type="email" name="email"><br><br>   
+        </label>
+        <h3>Seleção de produtos</h3>
+        <labbel>
+            <input type="checkbox" name="produto_arroz">Arroz
+             Quantidade:
+        <input type="number" name="qtd_arroz" min="1"><br><br>
+        </labbel>
+         <label>
+            <input type="checkbox" name="produto_feijao">
+            Feijão
+        </label>
+        Quantidade:
+        <input type="number" name="qtd_feijao" min="1"><br><br>
+         <label>
+            <input type="checkbox" name="produto_leite">
+            Leite
+        </label>
+        Quantidade:
+        <input type="number" name="qtd_leite" min="1"><br><br>
+        <label>
+            <input type="checkbox" name="produto_sabonete">
+            Sabonete
+        </label>
+        Quantidade:
+        <input type="number" name="qtd_sabonete" min="1"><br><br>
+        <hr>
+        <h3>Forma de pagamento</h3>
+          <label>
+            <input type="radio" name="pagamento" value="pix">
+            PIX
+        </label><br>
+            <label>
+                <input type="radio" name="pagamento" value="cartao">
+                Cartão de crédito
+            </label><br>
+             <label>
+            <input type="radio" name="pagamento" value="boleto">
+            Boleto
+        </label><br><br>
+
+        <button type="submit">Enviar Pedido</button>
+
+
+
+    </form>
+
+         
+    
+</body>
+</html>
