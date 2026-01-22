@@ -1,0 +1,75 @@
+/*custumização do pseudo*/
+p{
+    color: blue;
+}
+a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: red solid 2px;
+
+}
+/*comportamento do link a ser clicado*/
+a:link{
+    color: #0cff00
+    
+}
+/*comportamento do link depois de ser clicado*/
+a:visited{
+    color:#000;
+    background-color: yellow;
+
+}
+/*comportamento do link quando o mouse está em cima*/   
+a:hover{
+    color: red;
+    background-color:pink;
+    font-size: 20px;
+    font-weight: bold;
+    width:20px;
+
+}
+/*comportamento de ativação*/
+a:active{
+    color: black;
+    background-color: purple;
+}
+button:link{
+    color: green;
+}
+button:visited{
+    color: black;
+    background-color: yellow;
+}
+button:hover{
+    color: rgb(55, 11, 167);
+    background-color:rgb(13, 201, 238);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/*Trabalhando com pseudo-elemento*/
+p::first-line{
+    color: red;
+    font-variant: small-caps;
+
+}
+p::first-letter{
+    color: purple;
+    font-size: xx-large;
+}
+h3::before{
+    content: url(../img/lupa.png);
+}
+h3::after{
+    content: url(../img/lupa.png);
+}
+::marker{
+    color: blue;
+}
+::selection{
+    color: tomato;
+    background-color: black;
+}
