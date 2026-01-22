@@ -1,15 +1,43 @@
 /*Estilizando a página */
-houver{
-    background-color: lightcoral;
-}
-.box_position{
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    width: 200px;
-    height: 10px;
-    background-color: lightblue;
-}
+/*atividade um*/
+/*Estilizando o body*/
 body{
-    background-color: lightpink;
+    background-color: rgb(28, 2, 34);
 }
+/* Primeira caixa de posição*/
+.box_position1{
+    width:640px ;
+    height:547px;
+    background-color: rgb(67, 5, 75);
+    position: absolute;
+    top: 1%;
+    left: 27%;
+}
+/* Segunda caixa de posição*/
+.box_position2{
+    width:200px;
+    height:200px;
+    background-color: rgb(120, 10, 130);
+    position: absolute;
+    top: 17%;
+    left: 44%;
+}
+/* Terceira caixa de posição*/
+.box_position3{
+    width:115px;
+    height:115px;
+    background-color: rgb(165, 53, 169);
+    position: absolute;
+    top: 23%;
+    left: 47%;
+}
+/* Quarta caixa de posição*/
+.box_position4{
+    width:92px;
+    height:78px;
+    background-color: rgb(194, 102, 200);
+    position:absolute;
+    top: 25%;
+    left: 48%;
+}
+
