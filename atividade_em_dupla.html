@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardim Verde</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+    <h1>Jardim Verde</h1>
+ 
+    <nav>
+        <a href="#flores">Flores</a>
+        <a href="#cuidados">Cuidados</a>
+        <a href="#dicas">Dicas</a>
+    </nav>
+ 
+    <div id="flores" class="secao">
+        <h2>Flores do Jardim</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minus odit, rerum sint quo cupiditate dolore aperiam temporibus deleniti
+             magnam error maxime consequuntur repudiandae omnis minima accusantium laboriosam, ratione tempora.
+        </p>
+    </div>
+ 
+    <div id="cuidados" class="secao">
+        <h2>Cuidados Essenciais</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem ullam eligendi laudantium modi soluta exceptur
+        i velit ab fuga praesentium mollitia atque alias eos nihil, quam sequi. Reiciendis, nostrum modi.
+        </p>
+    </div>
+ 
+    <div id="dicas" class="secao">
+        <h2>Dicas de Jardinagem</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro aperiam harum, unde tenetur vel adipisci tempore corporis! Deleniti
+        molestias harum nihil atque nulla debitis repudiandae qui quibusdam! Adipisci, ab assumenda.
+        </p>
+    </div>
+ 
+    <footer>
+        <p>Jardim Verde 2026 - Cultivando a natureza</p>
+    </footer>
+ 
+</body>
+</html>
+ 
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+        }
+ 
+        h1 {
+            text-align: center;
+            padding: 30px;
+            color: #2e7d32;
+            font-size: 28px;
+        }
+ 
+        /* Menu com botões */
+        nav {
+            text-align: center;
+            padding: 20px;
+        }
+ 
+        nav a {
+            background-color: #4caf50;
+            color: white;
+            padding: 15px;
+            margin: 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: block;
+            font-size: 18px;
+        }
+ 
+        nav a:hover {
+            background-color: #388e3c;
+        }
+ 
+        /* Seções */
+        .secao {
+            background-color: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 51px;
+            border-left: 5px solid #4caf50;
+        }
+ 
+        .secao h2 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+ 
+        .secao p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+ 
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+ 
+        /* TABLET (600px até 900px) */
+        @media screen and (min-width: 600px) and (max-width: 900px) {
+            body {
+                background-color: #c8e6c9;
+            }
+ 
+            h1 {
+                font-size: 32px;
+                color: #1b5e20;
+            }
+ 
+            nav a {
+                display: inline-block;
+                background-color: #66bb6a;
+                font-size: 20px;
+            }
+ 
+            nav a:hover {
+                background-color: #2e7d32;
+            }
+ 
+            .secao {
+                margin: 20px auto;
+                max-width: 700px;
+                border-left: 5px solid #66bb6a;
+            }
+ 
+            .secao h2 {
+                color: #1b5e20;
+                font-size: 26px;
+            }
+ 
+            .secao p {
+                font-size: 18px;
+            }
+ 
+            footer {
+                background-color: #2e7d32;
+            }
+        }
+ 
+        /* DESKTOP (acima de 900px) */
+        @media screen and (min-width: 901px) {
+            body {
+                background-color: #a5d6a7;
+            }
+ 
+            h1 {
+                font-size: 40px;
+                color: #1b5e20;
+            }
+ 
+            nav a {
+                display: inline-block;
+                background-color: #43a047;
+                padding: 18px 40px;
+                font-size: 22px;
+                margin: 10px;
+            }
+ 
+            nav a:hover {
+                background-color: #2e7d32;
+            }
+ 
+            .secao {
+                margin: 30px auto;
+                max-width: 900px;
+                padding: 40px;
+                border-left: 5px solid #43a047;
+            }
+ 
+            .secao h2 {
+                color: #1b5e20;
+                font-size: 30px;
+            }
+ 
+            .secao p {
+                font-size: 20px;
+            }
+ 
+            footer {
+                background-color: #2e7d32;
+                padding: 25px;
+            }
+        }
+    </style>
+ 
