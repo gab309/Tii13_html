@@ -1,7 +1,7 @@
 /*Estilizando a página*/
 body {
     
-background-color: rgb(241, 193, 200);
+background-color: rgb(230, 222, 222);
   font-family: Arial, Helvetica, sans-serif;
    padding: 40px;
 
@@ -22,7 +22,7 @@ p{
 }
 .botão-1 {
 
-  background: #e75656;
+  background: #4c4747;
   color: white;
   border: none;
   padding: 8px 18px;
@@ -33,7 +33,7 @@ p{
 }
 .botão-2{
     
-  background: #e75656;
+  background: #4c4747;
   color: white;
   border: none;
   padding: 8px 18px;
@@ -44,7 +44,7 @@ p{
 }
 .botão-3{
     
-  background: #e75656;
+  background: #4c4747;
   color: white;
   border: none;
   padding: 8px 18px;
@@ -57,7 +57,7 @@ p{
 
 }
 .btn.ativo {
-    background: #c56d9d;
+    background: #5d5258;
 
 }
  
@@ -71,9 +71,9 @@ p{
 /* CARDS RETANGULARES */
 .card {
 
-    background: #eda5a5;
+    background: #f9f9f9;
     padding: 10px;
-    border: 1px solid #eda5a5;
+    border: 1px solid #f2efef;
 
 }
 /* IMAGENS RETAS */
@@ -93,14 +93,14 @@ p{
 .card p {
 
   font-size: 13px;
-    color: #f5f0f0;
+    color: #585757;
 
 }
 .h3{
-    color: white;
+    color: rgb(7, 7, 7);
 }
 .h1{
-    color: white;
+    color: rgb(10, 10, 10);
 }
 
 
