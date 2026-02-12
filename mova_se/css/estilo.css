@@ -35,4 +35,89 @@ img{
     line-height: 40px;
     padding-left: 1%;
  }
- 
+ nav a:link,nav a:visited,#iconmenu:link,#iconmenu:visited{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: 1s;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ nav a:focus, nav a:hover,#iconmenu:focus,#iconmenu:hover{
+    background-color: #a98e12;
+    color: black;
+    transition-duration: 1s;
+    border-radius: 5%;
+ }
+ #iconmenu{
+    color: white;
+    cursor: pointer;
+    margin-right: 40px;
+    line-height: 40px;
+    padding: 1%;
+    font-size: 40px; 
+}
+/* footer / rodapé*/
+.rodape{
+    border-top: solid 5px #06632e;
+    background-color: black;
+    color: #7f7f80;
+    text-align: center;
+    width: 100%;
+
+}
+.rodape p,li{
+    font-size: 16px;
+
+}
+.rodape img{
+    margin: 0 5px;
+
+}
+.rodape-conteudo{
+    padding: 15px;
+    color: #ffffff;
+}
+.rodape-conteudo{
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#logo-rodape{
+    width: 150px;
+    min-width: 146px;
+    margin: 0 auto;
+
+}
+.menu-rodape a{
+    text-decoration: none;
+    color: #7f7f80;
+
+}
+.menu-rodape a:hover{
+    color: white;
+}
+.redes img{
+    min-width:35px;
+    width: 35px;
+
+}
+.assinatura{
+    text-align: center;
+    color: #f4f4f7;
+    background-color: #7f7f80;
+    height: auto;
+    padding: 1%;
+}
+.assinatura{
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
