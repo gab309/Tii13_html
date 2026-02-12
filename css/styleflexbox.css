@@ -1,0 +1,107 @@
+/*Estilizando a página*/
+body {
+    
+background-color: rgb(230, 222, 222);
+  font-family: Arial, Helvetica, sans-serif;
+   padding: 40px;
+
+}
+h1{
+        font-size: 24px;
+
+}
+p{
+
+  margin-bottom: 15px;
+
+}
+.botoes{
+
+  margin-bottom: 25px;
+
+}
+.botão-1 {
+
+  background: #4c4747;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+.botão-2{
+    
+  background: #4c4747;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+.botão-3{
+    
+  background: #4c4747;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn:hover {
+    background: #080000;
+
+}
+.btn.ativo {
+    background: #5d5258;
+
+}
+ 
+.grid {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+/* CARDS RETANGULARES */
+.card {
+
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #f2efef;
+
+}
+/* IMAGENS RETAS */
+.card img {
+
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+
+}
+.card h3 {
+
+  font-size: 15px;
+  margin: 8px 0 5px;
+
+}
+.card p {
+
+  font-size: 13px;
+    color: #585757;
+
+}
+.h3{
+    color: rgb(7, 7, 7);
+}
+.h1{
+    color: rgb(10, 10, 10);
+}
+
+
+ 
